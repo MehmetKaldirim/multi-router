@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 
 import Welcome from "./pages/Welcome";
 import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
 import MaviKafa from "./components/MaviKafa";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/products">
           <Products />
+        </Route>
+        <Route path="/product-detail/:productId">
+          <ProductDetails />
         </Route>
       </main>
     </div>
