@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import classes from "./MainHeader.module.css";
+import classes from "./MaviKafa.module.css";
 
-const MainHeader = () => {
+const MaviKafa = () => {
   return (
     <header className={classes.header}>
       <nav>
@@ -19,4 +19,4 @@ const MainHeader = () => {
   );
 };
 
-export default MainHeader;
+export default MaviKafa;
